@@ -5,6 +5,7 @@
   "main": "build/src/index.js",
   "module": "build/src/index.js",
   "scripts": {
+    "prepare": "npm run build"
     "build": "tsc"
   },
   "files": [
