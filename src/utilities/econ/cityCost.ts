@@ -24,7 +24,7 @@ export default function cityCost(startingCity: number, endingCity: number, city_
             Math.pow(i + 1, 2) * 100000
         );
 
-        costs += city_average > i ? getPercentage(city_cost, percentage) : city_cost;
+        costs += getPercentage(city_cost, 100 - percentage);
     }
 
     return costs;
