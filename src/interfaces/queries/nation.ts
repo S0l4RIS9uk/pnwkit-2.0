@@ -227,6 +227,8 @@ export type nation = {
     metropolitan_planning?: Maybe<Scalars['Boolean']>
     military_salvage?: Maybe<Scalars['Boolean']>
     fallout_shelter?: Maybe<Scalars['Boolean']>
+    bureau_of_domestic_affairs?: Maybe<Scalars['Boolean']>
+    surveillance_network?: Maybe<Scalars['Boolean']>
     military_research_center?: Maybe<Scalars['Boolean']>
     military_doctrine?: Maybe<Scalars['Boolean']>
     wars_won?: Maybe<Scalars['Int']>
