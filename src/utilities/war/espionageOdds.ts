@@ -1,4 +1,4 @@
-import { operationType, warPolicy } from "../../interfaces/data/war";
+import { operationType, warPolicy } from "../../interfaces/data/war.js";
 
 /**
  * Get spy odds

@@ -1,6 +1,6 @@
-import { Kit } from '../..';
-import { apiKeyDetails } from '../../interfaces/queries/apiKeyDetails';
-import GraphQL from '../../services/GraphQL';
+import { Kit } from '../../index.js';
+import { apiKeyDetails } from '../../interfaces/queries/apiKeyDetails.js';
+import GraphQL from '../../services/GraphQL.js';
 
 /**
  * Gets the details of the api key

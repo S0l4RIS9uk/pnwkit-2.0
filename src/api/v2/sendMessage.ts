@@ -1,6 +1,6 @@
 import superagent from "superagent";
-import { Kit } from "../..";
-import { messageResult } from "../../interfaces/v2/sendMessage";
+import { Kit } from '../../index.js';
+import { messageResult } from "../../interfaces/v2/sendMessage.js";
 
 
 export default async function sendMessage(this: Kit, recipientID: number, subject: string, message: string): Promise<messageResult> {

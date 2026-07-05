@@ -1,4 +1,4 @@
-import { resourceType } from "../../interfaces/data/econ";
+import { resourceType } from "../../interfaces/data/econ.js";
 
 /**
  * Get resource data

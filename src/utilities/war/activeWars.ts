@@ -1,5 +1,5 @@
-import { activeWars } from "../../interfaces/data/war"
-import { war } from "../../interfaces/queries/war"
+import { activeWars } from "../../interfaces/data/war.js"
+import { war } from "../../interfaces/queries/war.js"
 
 /**
  * Get how many active wars a nation has

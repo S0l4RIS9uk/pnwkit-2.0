@@ -1,6 +1,6 @@
-import { Kit } from '../..';
-import { activityStat, activityStatPaginator, queryActivityStatsArgs, queryActivityStatsOrderByOrderByClause } from '../../interfaces/queries/activityStat';
-import GraphQL from '../../services/GraphQL';
+import { Kit } from '../../index.js';
+import { activityStat, activityStatPaginator, queryActivityStatsArgs, queryActivityStatsOrderByOrderByClause } from '../../interfaces/queries/activityStat.js';
+import GraphQL from '../../services/GraphQL.js';
 
 export interface Parameters {
   before?: Date;

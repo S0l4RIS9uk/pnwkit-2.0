@@ -1,7 +1,7 @@
-import { Maybe, Scalars } from "..";
-import { paginatorInfo, sortOrder } from "../other";
-import { nation } from "./nation";
-import { war } from "./war";
+import { Maybe, Scalars } from "../index.js";
+import { paginatorInfo, sortOrder } from "../other/index.js";
+import { nation } from "./nation.js";
+import { war } from "./war.js";
 
 export enum queryWarattacksOrderByColumn {
     Id = 'ID',

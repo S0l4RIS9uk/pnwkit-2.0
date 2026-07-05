@@ -1,7 +1,7 @@
-import { Kit } from '../..';
-import { mutationbankDepositArgs, bankDepositPaginator } from '../../interfaces/mutations/bankDeposit';
-import { bankrec } from '../../interfaces/queries/bank';
-import GraphQL from '../../services/GraphQL';
+import { Kit } from '../../index.js';
+import { mutationbankDepositArgs, bankDepositPaginator } from '../../interfaces/mutations/bankDeposit.js';
+import { bankrec } from '../../interfaces/queries/bank.js';
+import GraphQL from '../../services/GraphQL.js';
 
 export interface Parameters {
   money?: number;

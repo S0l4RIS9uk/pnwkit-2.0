@@ -1,4 +1,4 @@
-import { spyRanges} from "../../interfaces/data/war";
+import { spyRanges} from "../../interfaces/data/war.js";
 
 /**
  * Get a nation's spy range

@@ -1,6 +1,6 @@
-import { Maybe, Scalars } from ".."
-import { paginatorInfo, sortOrder } from "../other"
-import { nation } from "./nation"
+import { Maybe, Scalars } from "../index.js"
+import { paginatorInfo, sortOrder } from "../other/index.js"
+import { nation } from "./nation.js"
 
 export type queryTradesOrderByOrderByClause = {
     column: queryTradesOrderByColumn

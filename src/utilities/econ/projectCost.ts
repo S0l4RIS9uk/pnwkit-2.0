@@ -1,5 +1,5 @@
-import { projects, resourcePrices } from "../../interfaces/data/econ";
-import getPercentage from "../other/getPercentage";
+import { projects, resourcePrices } from "../../interfaces/data/econ.js";
+import getPercentage from "../other/getPercentage.js";
 
 /**
  * Get the cost of any project

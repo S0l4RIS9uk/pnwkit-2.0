@@ -1,6 +1,6 @@
-import { Kit } from '../..';
-import { queryTreasureTradesArgs, queryTreasureTradesOrderByOrderByClause, treasureTrade, treasureTradePaginator } from '../../interfaces/queries/treasureTrade';
-import GraphQL from '../../services/GraphQL';
+import { Kit } from '../../index.js';
+import { queryTreasureTradesArgs, queryTreasureTradesOrderByOrderByClause, treasureTrade, treasureTradePaginator } from '../../interfaces/queries/treasureTrade.js';
+import GraphQL from '../../services/GraphQL.js';
 
 export interface Parameters {
     id?: number[];

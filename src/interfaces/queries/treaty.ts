@@ -1,6 +1,6 @@
-import { Maybe, Scalars } from "..";
-import { paginatorInfo, sortOrder } from "../other";
-import { alliance } from "./alliance";
+import { Maybe, Scalars } from "../index.js";
+import { paginatorInfo, sortOrder } from "../other/index.js";
+import { alliance } from "./alliance.js";
 
 export enum queryTreatiesOrderByColumn {
     Id = 'ID',

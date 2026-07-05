@@ -1,6 +1,6 @@
-import { Kit } from '../..';
-import { queryTreatiesArgs, queryTreatiesOrderByOrderByClause, treaty, treatyPaginator } from '../../interfaces/queries/treaty';
-import GraphQL from '../../services/GraphQL';
+import { Kit } from '../../index.js';
+import { queryTreatiesArgs, queryTreatiesOrderByOrderByClause, treaty, treatyPaginator } from '../../interfaces/queries/treaty.js';
+import GraphQL from '../../services/GraphQL.js';
 
 export interface Parameters {
     id?: number[];

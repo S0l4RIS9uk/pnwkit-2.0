@@ -1,6 +1,6 @@
-import {Kit} from '../..';
-import { treasure } from '../../interfaces/queries/treasure';
-import GraphQL from '../../services/GraphQL';
+import { Kit } from '../../index.js';
+import { treasure } from '../../interfaces/queries/treasure.js';
+import GraphQL from '../../services/GraphQL.js';
 
 /**
  * Gets a list of all treasures

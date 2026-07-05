@@ -1,6 +1,6 @@
-import { Kit } from "../..";
-import { baseballTeam, baseballTeamPaginator, queryBaseballTeamsArgs, queryBaseballTeamsOrderByOrderByClause } from "../../interfaces/queries/baseball";
-import GraphQL from "../../services/GraphQL";
+import { Kit } from '../../index.js';
+import { baseballTeam, baseballTeamPaginator, queryBaseballTeamsArgs, queryBaseballTeamsOrderByOrderByClause } from "../../interfaces/queries/baseball.js";
+import GraphQL from "../../services/GraphQL.js";
 
 
 export interface Parameters {

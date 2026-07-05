@@ -1,7 +1,7 @@
-import { Kit } from '../..';
-import { bankWithdrawPaginator, mutationBankWithdrawArgs } from '../../interfaces/mutations/bankWithdraw';
-import { bankrec } from '../../interfaces/queries/bank';
-import GraphQL from '../../services/GraphQL';
+import { Kit } from '../../index.js';
+import { bankWithdrawPaginator, mutationBankWithdrawArgs } from '../../interfaces/mutations/bankWithdraw.js';
+import { bankrec } from '../../interfaces/queries/bank.js';
+import GraphQL from '../../services/GraphQL.js';
 
 export interface Parameters {
   receiver: number;

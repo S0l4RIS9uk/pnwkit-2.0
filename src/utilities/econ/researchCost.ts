@@ -1,5 +1,5 @@
-import { resourcePrices } from '../../interfaces/data/econ';
-import { militaryResearch } from '../../interfaces/data/war';
+import { resourcePrices } from '../../interfaces/data/econ.js';
+import { militaryResearch } from '../../interfaces/data/war.js';
 
 /**
  * Gets the cost for research levels. Does not account for 

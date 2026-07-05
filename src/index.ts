@@ -1,7 +1,7 @@
 import memoize from 'memoizee';
-import { rateLimitI } from './interfaces/other';
-import PnwKitAPI from './api';
-import PnwKitUtils from './utilities';
+import { rateLimitI } from './interfaces/other/index.js';
+import PnwKitAPI from './api/index.js';
+import PnwKitUtils from './utilities/index.js';
 
 /**
  * The main application class

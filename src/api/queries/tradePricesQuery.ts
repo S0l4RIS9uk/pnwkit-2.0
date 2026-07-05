@@ -1,6 +1,6 @@
-import { Kit } from '../..';
-import { queryTradepricesArgs, tradeprice, tradePricePaginator } from '../../interfaces/queries/tradePrice';
-import GraphQL from '../../services/GraphQL';
+import { Kit } from '../../index.js';
+import { queryTradepricesArgs, tradeprice, tradePricePaginator } from '../../interfaces/queries/tradePrice.js';
+import GraphQL from '../../services/GraphQL.js';
 
 export interface Parameters {
     first?: number;

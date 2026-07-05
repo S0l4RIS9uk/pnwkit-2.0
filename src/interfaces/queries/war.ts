@@ -1,8 +1,8 @@
-import { Maybe, Scalars } from ".."
-import { paginatorInfo, sortOrder } from "../other"
-import { alliancePositionEnum } from "./alliance"
-import { nation } from "./nation"
-import { warAttack } from "./warAttack"
+import { Maybe, Scalars } from "../index.js"
+import { paginatorInfo, sortOrder } from "../other/index.js"
+import { alliancePositionEnum } from "./alliance.js"
+import { nation } from "./nation.js"
+import { warAttack } from "./warAttack.js"
 
 export enum warType {
     Ordinary = 'ORDINARY',

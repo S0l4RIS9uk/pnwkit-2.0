@@ -1,4 +1,4 @@
-import { projectBits } from "../../interfaces/data/econ";
+import { projectBits } from "../../interfaces/data/econ.js";
 
 /**
  * Check if a nation has a certain project based on their project bits

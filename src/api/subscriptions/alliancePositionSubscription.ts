@@ -1,6 +1,6 @@
 import Pusher from "pusher-js";
-import {Kit} from "../..";
-import {subscriptionCluster} from "../../interfaces/subscriptions";
+import { Kit } from '../../index.js';
+import {subscriptionCluster} from "../../interfaces/subscriptions/index.js";
 
 /**
  * Subscribe to get alliance positions in real time

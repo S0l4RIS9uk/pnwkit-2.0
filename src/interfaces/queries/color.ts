@@ -1,4 +1,4 @@
-import { Maybe, Scalars } from ".."
+import { Maybe, Scalars } from "../index.js"
 
 export type color = {
     __typename?: 'color'

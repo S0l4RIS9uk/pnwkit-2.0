@@ -1,6 +1,6 @@
-import {Kit} from '../..';
-import { color } from '../../interfaces/queries/color';
-import GraphQL from '../../services/GraphQL';
+import { Kit } from '../../index.js';
+import { color } from '../../interfaces/queries/color.js';
+import GraphQL from '../../services/GraphQL.js';
 
 /**
  * Gets all color trade blocs

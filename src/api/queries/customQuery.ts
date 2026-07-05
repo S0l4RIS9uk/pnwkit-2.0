@@ -1,5 +1,5 @@
-import { Kit } from '../..';
-import GraphQL from '../../services/GraphQL';
+import { Kit } from '../../index.js';
+import GraphQL from '../../services/GraphQL.js';
 
 /**
  * Make a Custom Query

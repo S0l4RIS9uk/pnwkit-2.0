@@ -1,5 +1,5 @@
-import { Maybe, Scalars } from ".."
-import { nation } from "./nation"
+import { Maybe, Scalars } from "../index.js"
+import { nation } from "./nation.js"
 
 export type apiKeyDetails = {
     __typename?: 'apiKeyDetails'

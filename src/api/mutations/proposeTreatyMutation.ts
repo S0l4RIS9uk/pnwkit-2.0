@@ -1,7 +1,7 @@
-import { Kit } from '../..';
-import { mutationProposeTreatyArgs, proposeTreatyPaginator } from '../../interfaces/mutations/proposeTreaty';
-import { treaty } from '../../interfaces/queries/treaty';
-import GraphQL from '../../services/GraphQL';
+import { Kit } from '../../index.js';
+import { mutationProposeTreatyArgs, proposeTreatyPaginator } from '../../interfaces/mutations/proposeTreaty.js';
+import { treaty } from '../../interfaces/queries/treaty.js';
+import GraphQL from '../../services/GraphQL.js';
 
 export interface Parameters {
   alliance_id: string;

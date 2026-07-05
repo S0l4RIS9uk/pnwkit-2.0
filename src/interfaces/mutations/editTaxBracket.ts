@@ -1,6 +1,6 @@
-import { Scalars } from ".."
-import { paginatorInfo } from "../other"
-import { taxBracket } from "../queries/bank"
+import { Scalars } from "../index.js"
+import { paginatorInfo } from "../other/index.js"
+import { taxBracket } from "../queries/bank.js"
 
 export type mutationEditTaxBracketArgs = {
     id: Scalars['ID']

@@ -1,6 +1,6 @@
-import { Scalars } from "..";
-import { paginatorInfo } from "../other";
-import { trade } from "../queries/trade";
+import { Scalars } from "../index.js";
+import { paginatorInfo } from "../other/index.js";
+import { trade } from "../queries/trade.js";
 
 export type acceptPersonalTradePaginator = {
     __typename?: 'acceptPersonalTradePaginator'

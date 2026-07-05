@@ -1,6 +1,6 @@
-import { Kit } from '../..';
-import { bulletinReplies, bulletinRepliesPaginator, queryBulletinRepliesOrderByOrderByClause, queryBulletinReplyArgs } from '../../interfaces/queries/bulletinReplies';
-import GraphQL from '../../services/GraphQL';
+import { Kit } from '../../index.js';
+import { bulletinReplies, bulletinRepliesPaginator, queryBulletinRepliesOrderByOrderByClause, queryBulletinReplyArgs } from '../../interfaces/queries/bulletinReplies.js';
+import GraphQL from '../../services/GraphQL.js';
 
 export interface Parameters {
 id?: number[];

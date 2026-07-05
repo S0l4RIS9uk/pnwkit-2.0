@@ -1,11 +1,11 @@
-import { Maybe, Scalars } from "..";
-import { award } from "../data/other";
-import { paginatorInfo, sortOrder } from "../other";
-import { bankrec, taxBracket } from "./bank";
-import { bulletin } from "./bulletin";
-import { nation } from "./nation";
-import { treaty } from './treaty';
-import { war } from "./war";
+import { Maybe, Scalars } from "../index.js";
+import { award } from "../data/other.js";
+import { paginatorInfo, sortOrder } from "../other/index.js";
+import { bankrec, taxBracket } from "./bank.js";
+import { bulletin } from "./bulletin.js";
+import { nation } from "./nation.js";
+import { treaty } from './treaty.js';
+import { war } from "./war.js";
 
 export type queryAlliancesOrderByOrderByClause = {
     column: queryAlliancesOrderByColumn

@@ -1,7 +1,7 @@
-import { Kit } from '../..';
-import { city, cityPaginator, queryCitiesArgs, queryCitiesOrderByOrderByClause } from '../../interfaces/queries/city';
+import { Kit } from '../../index.js';
+import { city, cityPaginator, queryCitiesArgs, queryCitiesOrderByOrderByClause } from '../../interfaces/queries/city.js';
 
-import GraphQL from '../../services/GraphQL';
+import GraphQL from '../../services/GraphQL.js';
 
 export interface Parameters {
     id?: number[];

@@ -1,6 +1,6 @@
-import { alliance } from "../../interfaces/queries/alliance";
-import { tiering } from "../../interfaces/data/war";
-import { nation } from "../../interfaces/queries/nation";
+import { alliance } from "../../interfaces/queries/alliance.js";
+import { tiering } from "../../interfaces/data/war.js";
+import { nation } from "../../interfaces/queries/nation.js";
 
 /**
  * Get an spheres tiering

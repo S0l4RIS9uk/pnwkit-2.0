@@ -1,6 +1,6 @@
-import { Maybe, Scalars } from ".."
-import { paginatorInfo } from "../other"
-import { bankrec } from "../queries/bank"
+import { Maybe, Scalars } from "../index.js"
+import { paginatorInfo } from "../other/index.js"
+import { bankrec } from "../queries/bank.js"
 
 export type bankDepositPaginator = {
     __typename?: 'bankDepositPaginator'

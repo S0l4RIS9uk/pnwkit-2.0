@@ -1,6 +1,6 @@
-import { Kit } from '../..';
-import { nationResourceStat, nationResourceStatPaginator, queryNationResourceStatsArgs, queryNationResourceStatsOrderByOrderByClause } from '../../interfaces/queries/nationResourceStat';
-import GraphQL from '../../services/GraphQL';
+import { Kit } from '../../index.js';
+import { nationResourceStat, nationResourceStatPaginator, queryNationResourceStatsArgs, queryNationResourceStatsOrderByOrderByClause } from '../../interfaces/queries/nationResourceStat.js';
+import GraphQL from '../../services/GraphQL.js';
 
 export interface Parameters {
   id?: number[];

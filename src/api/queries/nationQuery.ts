@@ -1,6 +1,6 @@
-import { Kit } from '../..';
-import { nation, nationPaginator, queryNationsArgs, queryNationsOrderByOrderByClause } from '../../interfaces/queries/nation';
-import GraphQL from '../../services/GraphQL';
+import { Kit } from '../../index.js';
+import { nation, nationPaginator, queryNationsArgs, queryNationsOrderByOrderByClause } from '../../interfaces/queries/nation.js';
+import GraphQL from '../../services/GraphQL.js';
 
 export interface Parameters {
   id?: number[];

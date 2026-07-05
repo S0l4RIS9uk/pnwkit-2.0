@@ -1,6 +1,6 @@
-import {Kit} from '../..';
-import { queryTradesArgs, queryTradesOrderByOrderByClause, trade, tradePaginator, tradeType } from '../../interfaces/queries/trade';
-import GraphQL from '../../services/GraphQL';
+import { Kit } from '../../index.js';
+import { queryTradesArgs, queryTradesOrderByOrderByClause, trade, tradePaginator, tradeType } from '../../interfaces/queries/trade.js';
+import GraphQL from '../../services/GraphQL.js';
 
 export interface Parameters {
   id?: number[];

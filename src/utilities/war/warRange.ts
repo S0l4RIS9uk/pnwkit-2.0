@@ -1,4 +1,4 @@
-import { warRanges } from "../../interfaces/data/war";
+import { warRanges } from "../../interfaces/data/war.js";
 
 /**
  * Get war ranges

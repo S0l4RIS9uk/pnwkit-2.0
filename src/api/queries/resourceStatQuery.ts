@@ -1,6 +1,6 @@
-import { Kit } from '../..';
-import { queryResourceStatsArgs, queryResourceStatsOrderByOrderByClause, resourceStat, resourceStatPaginator } from '../../interfaces/queries/resourceStat';
-import GraphQL from '../../services/GraphQL';
+import { Kit } from '../../index.js';
+import { queryResourceStatsArgs, queryResourceStatsOrderByOrderByClause, resourceStat, resourceStatPaginator } from '../../interfaces/queries/resourceStat.js';
+import GraphQL from '../../services/GraphQL.js';
 
 export interface Parameters {
     before?: Date;

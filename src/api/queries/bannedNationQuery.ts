@@ -1,6 +1,6 @@
-import { Kit } from '../..';
-import { bannedNation, bannedNationPaginator, queryBannedNationArgs, queryBannedNationsOrderByOrderByClause } from '../../interfaces/queries/bannedNation';
-import GraphQL from '../../services/GraphQL';
+import { Kit } from '../../index.js';
+import { bannedNation, bannedNationPaginator, queryBannedNationArgs, queryBannedNationsOrderByOrderByClause } from '../../interfaces/queries/bannedNation.js';
+import GraphQL from '../../services/GraphQL.js';
 
 export interface Parameters {
     nation_id?: number[];

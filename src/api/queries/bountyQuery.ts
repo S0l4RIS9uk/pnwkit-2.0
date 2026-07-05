@@ -1,6 +1,6 @@
-import { Kit } from '../..';
-import { bounty, bountyPaginator, queryBountiesArgs, queryBountiesOrderByOrderByClause } from '../../interfaces/queries/bounty';
-import GraphQL from '../../services/GraphQL';
+import { Kit } from '../../index.js';
+import { bounty, bountyPaginator, queryBountiesArgs, queryBountiesOrderByOrderByClause } from '../../interfaces/queries/bounty.js';
+import GraphQL from '../../services/GraphQL.js';
 
 export interface Parameters {
   nation_id?: number[];

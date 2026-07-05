@@ -1,5 +1,5 @@
-import accurateRounding from "../other/accurateRounding";
-import getPercentage from "../other/getPercentage";
+import accurateRounding from "../other/accurateRounding.js";
+import getPercentage from "../other/getPercentage.js";
 
 /**
  * Get the cost of infra

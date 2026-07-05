@@ -1,5 +1,5 @@
-import { city } from "../../interfaces/queries/city";
-import getDaysBetween from "../other/getDaysBetween";
+import { city } from "../../interfaces/queries/city.js";
+import getDaysBetween from "../other/getDaysBetween.js";
 
 /**
  * Gets how much food a nation consumes in a day

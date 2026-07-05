@@ -1,4 +1,4 @@
-import getPercentage from "../other/getPercentage";
+import getPercentage from "../other/getPercentage.js";
 
 /**
  * Gets the amount of disease in a city

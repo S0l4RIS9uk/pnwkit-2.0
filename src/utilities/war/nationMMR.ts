@@ -1,6 +1,6 @@
-import { MMR } from "../../interfaces/data/war";
-import { nation } from "../../interfaces/queries/nation";
-import accurateRounding from "../other/accurateRounding";
+import { MMR } from "../../interfaces/data/war.js";
+import { nation } from "../../interfaces/queries/nation.js";
+import accurateRounding from "../other/accurateRounding.js";
 
 /**
  * Get a nation's MMR

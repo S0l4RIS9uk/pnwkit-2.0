@@ -1,5 +1,5 @@
-import { Maybe, Scalars } from ".."
-import { paginatorInfo, sortOrder } from "../other"
+import { Maybe, Scalars } from "../index.js"
+import { paginatorInfo, sortOrder } from "../other/index.js"
 
 export type queryBannedNationArgs = {
     nation_id?: Maybe<Scalars['Int']>

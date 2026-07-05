@@ -1,4 +1,4 @@
-import { Maybe, Scalars } from ".."
+import { Maybe, Scalars } from "../index.js"
 
 export type gameInfo = {
     __typename?: 'gameInfo'

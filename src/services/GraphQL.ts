@@ -1,7 +1,7 @@
 import superagent from 'superagent';
-import { responseAndMetadataI } from '../interfaces/other';
-import { anyCall } from '../interfaces';
-import { channelSubscription, subscriptionEvent, subscriptionModel } from '../interfaces/subscriptions';
+import { responseAndMetadataI } from '../interfaces/other/index.js';
+import { anyCall } from '../interfaces/index.js';
+import { channelSubscription, subscriptionEvent, subscriptionModel } from '../interfaces/subscriptions/index.js';
 
 /**
  * An internal method of handling calls to the P&W graphQL API

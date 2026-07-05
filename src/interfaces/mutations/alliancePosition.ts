@@ -1,6 +1,6 @@
-import { Maybe, Scalars } from "..";
-import { paginatorInfo } from "../other";
-import { alliancePositionEnum, alliancePosition } from "../queries/alliance";
+import { Maybe, Scalars } from "../index.js";
+import { paginatorInfo } from "../other/index.js";
+import { alliancePositionEnum, alliancePosition } from "../queries/alliance.js";
 
 export type assignAlliancePositionPaginator = {
     __typename?: 'assignAlliancePositionPaginator'

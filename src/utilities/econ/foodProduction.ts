@@ -1,7 +1,7 @@
-import { foodProductionSeasons } from "../../interfaces/data/econ";
-import { gameInfo } from "../../interfaces/queries/gameInfo";
-import { nation } from "../../interfaces/queries/nation";
-import { radiationIndex } from "./cityEffects";
+import { foodProductionSeasons } from "../../interfaces/data/econ.js";
+import { gameInfo } from "../../interfaces/queries/gameInfo.js";
+import { nation } from "../../interfaces/queries/nation.js";
+import { radiationIndex } from "./cityEffects.js";
 
 /**
  * Get how much food a nation makes in a day

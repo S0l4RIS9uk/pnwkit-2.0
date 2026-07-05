@@ -1,6 +1,6 @@
-import { Kit } from "../..";
-import { subscriptionFilters, subscriptionEvent, subscriptionModel } from "../../interfaces/subscriptions";
-import GraphQL from "../../services/GraphQL";
+import { Kit } from '../../index.js';
+import { subscriptionFilters, subscriptionEvent, subscriptionModel } from "../../interfaces/subscriptions/index.js";
+import GraphQL from "../../services/GraphQL.js";
 
 /**
  * get a subscription channel

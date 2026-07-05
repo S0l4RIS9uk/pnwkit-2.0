@@ -1,6 +1,6 @@
-import { MMR } from "../../interfaces/data/war";
-import { alliance } from "../../interfaces/queries/alliance";
-import accurateRounding from "../other/accurateRounding";
+import { MMR } from "../../interfaces/data/war.js";
+import { alliance } from "../../interfaces/queries/alliance.js";
+import accurateRounding from "../other/accurateRounding.js";
 
 export default function allianceMMR(alliance: alliance): MMR {
 

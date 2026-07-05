@@ -1,6 +1,6 @@
-import { Kit } from '../..';
-import { queryWarattacksArgs, queryWarattacksOrderByOrderByClause, warAttack, warAttackPaginator } from '../../interfaces/queries/warAttack';
-import GraphQL from '../../services/GraphQL';
+import { Kit } from '../../index.js';
+import { queryWarattacksArgs, queryWarattacksOrderByOrderByClause, warAttack, warAttackPaginator } from '../../interfaces/queries/warAttack.js';
+import GraphQL from '../../services/GraphQL.js';
 
 export interface Parameters {
     id?: number[];

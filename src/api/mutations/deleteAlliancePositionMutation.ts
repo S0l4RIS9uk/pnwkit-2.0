@@ -1,7 +1,7 @@
-import { Kit } from '../..';
-import { deleteAlliancePositionPaginator, mutationDeleteAlliancePositionArgs } from '../../interfaces/mutations/alliancePosition';
-import { alliancePosition } from '../../interfaces/queries/alliance';
-import GraphQL from '../../services/GraphQL';
+import { Kit } from '../../index.js';
+import { deleteAlliancePositionPaginator, mutationDeleteAlliancePositionArgs } from '../../interfaces/mutations/alliancePosition.js';
+import { alliancePosition } from '../../interfaces/queries/alliance.js';
+import GraphQL from '../../services/GraphQL.js';
 
 export interface Parameters {
     id: number;

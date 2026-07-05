@@ -4,6 +4,7 @@
   "description": "The reincarnation of pnwkit by BSNK",
   "main": "build/index.js",
   "module": "build/index.js",
+  "type": "module",
   "scripts": {
     "prepare": "npm run build",
     "build": "tsc"

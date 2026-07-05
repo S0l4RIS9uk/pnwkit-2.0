@@ -1,7 +1,7 @@
-import { Maybe, Scalars } from "..";
-import { paginatorInfo, sortOrder } from "../other";
-import { bulletin } from "./bulletin";
-import { nation } from "./nation";
+import { Maybe, Scalars } from "../index.js";
+import { paginatorInfo, sortOrder } from "../other/index.js";
+import { bulletin } from "./bulletin.js";
+import { nation } from "./nation.js";
 
 export type bulletinRepliesPaginator = {
     __typename?: 'bulletinRepliesPaginator'

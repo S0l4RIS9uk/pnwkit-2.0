@@ -1,15 +1,15 @@
-import { Maybe, Scalars } from "..";
-import { award } from "../data/other";
-import { militaryResearch } from '../data/war';
-import { paginatorInfo, sortOrder } from "../other";
-import { alliance, alliancePositionEnum, alliancePosition } from "./alliance";
-import { bankrec } from "./bank";
-import { baseballTeam } from "./baseball";
-import { bounty } from "./bounty";
-import { city } from "./city";
-import { trade } from "./trade";
-import { treasure } from "./treasure";
-import { war } from "./war";
+import { Maybe, Scalars } from "../index.js";
+import { award } from "../data/other.js";
+import { militaryResearch } from '../data/war.js';
+import { paginatorInfo, sortOrder } from "../other/index.js";
+import { alliance, alliancePositionEnum, alliancePosition } from "./alliance.js";
+import { bankrec } from "./bank.js";
+import { baseballTeam } from "./baseball.js";
+import { bounty } from "./bounty.js";
+import { city } from "./city.js";
+import { trade } from "./trade.js";
+import { treasure } from "./treasure.js";
+import { war } from "./war.js";
 
 
 export type nationPaginator = {

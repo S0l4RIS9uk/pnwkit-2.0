@@ -1,6 +1,6 @@
-import { Kit } from '../..';
-import { baseballGame, baseballGamePaginator, queryBaseballGamesArgs, queryBaseballGamesOrderByOrderByClause } from '../../interfaces/queries/baseball';
-import GraphQL from '../../services/GraphQL';
+import { Kit } from '../../index.js';
+import { baseballGame, baseballGamePaginator, queryBaseballGamesArgs, queryBaseballGamesOrderByOrderByClause } from '../../interfaces/queries/baseball.js';
+import GraphQL from '../../services/GraphQL.js';
 
 export interface Parameters {
   id?: number[];

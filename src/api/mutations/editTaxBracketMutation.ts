@@ -1,7 +1,7 @@
-import { Kit } from '../..';
-import { editTaxBracketPaginator, mutationEditTaxBracketArgs } from '../../interfaces/mutations/editTaxBracket';
-import { taxBracket } from '../../interfaces/queries/bank';
-import GraphQL from '../../services/GraphQL';
+import { Kit } from '../../index.js';
+import { editTaxBracketPaginator, mutationEditTaxBracketArgs } from '../../interfaces/mutations/editTaxBracket.js';
+import { taxBracket } from '../../interfaces/queries/bank.js';
+import GraphQL from '../../services/GraphQL.js';
 
 export interface Parameters {
   id: string

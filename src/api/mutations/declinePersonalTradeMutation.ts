@@ -1,7 +1,7 @@
-import { Kit } from '../..';
-import { declinePersonalTradePaginator, mutationDeclinePersonalTradeArgs } from '../../interfaces/mutations/personalTrade';
-import { trade } from '../../interfaces/queries/trade';
-import GraphQL from '../../services/GraphQL';
+import { Kit } from '../../index.js';
+import { declinePersonalTradePaginator, mutationDeclinePersonalTradeArgs } from '../../interfaces/mutations/personalTrade.js';
+import { trade } from '../../interfaces/queries/trade.js';
+import GraphQL from '../../services/GraphQL.js';
 
 export interface Parameters {
   id: number;

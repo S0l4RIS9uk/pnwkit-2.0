@@ -1,7 +1,7 @@
-import { Kit } from '../..';
-import { cancelTreatyPaginator, mutationCancelTreatyArgs } from '../../interfaces/mutations/cancelTreaty';
-import { treaty } from '../../interfaces/queries/treaty';
-import GraphQL from '../../services/GraphQL';
+import { Kit } from '../../index.js';
+import { cancelTreatyPaginator, mutationCancelTreatyArgs } from '../../interfaces/mutations/cancelTreaty.js';
+import { treaty } from '../../interfaces/queries/treaty.js';
+import GraphQL from '../../services/GraphQL.js';
 
 export interface Parameters {
   id: string;

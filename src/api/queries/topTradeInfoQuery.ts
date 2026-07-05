@@ -1,6 +1,6 @@
-import { Kit } from '../..';
-import { topTradeInfo, topTradeInfoPaginator } from '../../interfaces/queries/topTradeInfo';
-import GraphQL from '../../services/GraphQL';
+import { Kit } from '../../index.js';
+import { topTradeInfo, topTradeInfoPaginator } from '../../interfaces/queries/topTradeInfo.js';
+import GraphQL from '../../services/GraphQL.js';
 
 /**
  * Gets a list of trade prices

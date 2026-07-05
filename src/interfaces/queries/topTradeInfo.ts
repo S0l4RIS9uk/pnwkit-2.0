@@ -1,5 +1,5 @@
-import { Maybe, Scalars } from "..";
-import { paginatorInfo } from "../other";
+import { Maybe, Scalars } from "../index.js";
+import { paginatorInfo } from "../other/index.js";
 
 export type topTradeInfoPaginator = {
     __typename?: 'topTradeInfoPaginator'

@@ -1,6 +1,6 @@
-import { Kit } from '../..';
-import { gameInfo } from '../../interfaces/queries/gameInfo';
-import GraphQL from '../../services/GraphQL';
+import { Kit } from '../../index.js';
+import { gameInfo } from '../../interfaces/queries/gameInfo.js';
+import GraphQL from '../../services/GraphQL.js';
 
 /**
  * Gets the details on certain game information

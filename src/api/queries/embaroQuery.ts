@@ -1,6 +1,6 @@
-import { Kit } from '../..';
-import { embargo, embargoPaginator, queryEmbargoesArgs, queryEmbargoesOrderByOrderByClause } from '../../interfaces/queries/embargo';
-import GraphQL from '../../services/GraphQL';
+import { Kit } from '../../index.js';
+import { embargo, embargoPaginator, queryEmbargoesArgs, queryEmbargoesOrderByOrderByClause } from '../../interfaces/queries/embargo.js';
+import GraphQL from '../../services/GraphQL.js';
 
 export interface Parameters {
     id?: number[];

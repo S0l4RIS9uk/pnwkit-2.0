@@ -1,7 +1,7 @@
-import { Kit } from '../..';
-import GraphQL from '../../services/GraphQL';
-import { taxBracket } from '../../interfaces/queries/bank';
-import { assignTaxBracketPaginator, mutationAssignTaxBracketArgs } from '../../interfaces/mutations/assignTaxBracket';
+import { Kit } from '../../index.js';
+import GraphQL from '../../services/GraphQL.js';
+import { taxBracket } from '../../interfaces/queries/bank.js';
+import { assignTaxBracketPaginator, mutationAssignTaxBracketArgs } from '../../interfaces/mutations/assignTaxBracket.js';
 
 export interface Parameters {
   id: number;
