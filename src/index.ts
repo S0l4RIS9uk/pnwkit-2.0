@@ -64,9 +64,9 @@ export class Kit extends PnwKitAPI {
 
 const kit = new Kit();
 
-for (const [key] of Object.entries(kit)) {
+/* for (const [key] of Object.entries(kit)) {
     exports[key] = kit[key];
-}
+} */
 
 export default kit;
 export const setKeys = kit.setKeys.bind(kit);
